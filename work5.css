@@ -1,0 +1,40 @@
+.hide{
+	display: none;
+}
+
+.price{
+    font-size: 40px;
+    text-align: center;
+}
+
+.flexcom{
+	display: flex;
+    flex-direction: column;
+}
+
+.Photo{
+	width:9%;
+	float:left;
+	margin-right: 10px;
+}
+
+.authorname{
+	font-size: 36px;
+	color: rgb(90, 0, 126);
+}
+
+.city{
+	font-size: 24px;
+}
+
+
+.reviewtext{
+	font-size:40px;
+	color:black;
+}
+
+.review{
+	border: 8px rgb(0, 0, 0);
+	background: rgb(248, 252, 1);
+	margin: 4px 0;
+}
