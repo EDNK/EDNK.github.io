@@ -3,9 +3,8 @@
     
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="WXPxdqmPCZLAQmPx86-RC-0TFxSokhrFo1hNyGdR8zM" />
-    <meta name="yandex-verification" content="3b2b0f4f2fd740c5" />
-    <link rel="icon" href="ednk.github.com/favicon.jpg" type="image/x-icon">
+    <meta name="google-site-verification" content="ymEh3SjlaNidWN_5RKnMe9BG0w4RPIetxCOCBCm7Lxw" />
+    <link rel="shortcut icon" href="https://i.ytimg.com/vi/YWL8ver2KFM/maxresdefault.jpg" type="image/png">
     <link href="work5.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="yandex-verification" content="0a9b307788349b1c" />
@@ -42,13 +41,83 @@
               <div class="col-md-12 text-dark text-decoration-none" id="Buy" itemscope itemtype="https://schema.org/Product">
 
                  <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">    
-                        <h1 class="text-center" itemprop="description">Бустинг рейтинга от Данила Старосельцева</h1><span class="price text" itemprop="price">3000</span> <span class="price text" itemprop="priceCurrency">RUB</span>
+                        <h1 class="text-center" itemprop="description">Бустинг рейтинга от Данила Старосельцева</h1><span class="price text" itemprop="price">За 1000 рейтинга 3000</span> <span class="price text" itemprop="priceCurrency">RUB</span>
                     </div>
 
                     <h2 class="text-center" itemprop="name">Бустинг рейтинга в Dota 2</h2>
-                   <p class="text" itemprop="description">Бустинг вашего Core-рейтинга в компьютерной игре Dota 2, которое осуществится самим Старосельцевым Данилом Викторовичем, студентом Кубанского государственного университета, Факультета компьютерных технологий и прикладной математики. Услуга предоставляется максимально быстро и качественно.</p>
+                   <p class="text" itemprop="description">Бустинг вашего Core/Support рейтинга в компьютерной игре Dota 2, которое осуществится самим Старосельцевым Данилом Викторовичем, студентом Кубанского государственного университета, Факультета компьютерных технологий и прикладной математики. Услуга предоставляется максимально быстро и качественно.</p>
                 
               </div>
+
+              <div class="container bg-info ">
+                    <form class="">
+
+                        <div>
+                            <label>
+                                <input id="amount" type="text" value="100">
+                            </label>
+                        </div>
+
+                        <select name="type">
+
+                                <option value="1">
+                                        Любые герои
+                                </option>
+
+                                <option value="2">
+                                        Герои на выбор
+                                </option>
+
+                                <option value="3">
+                                        Тип рейтинга
+                                </option>
+                                                            
+                        </select>
+
+                        <div id="cheroes" style="display: none;">
+                        
+                            <label>
+                                    <input name="options" type="radio" value="option1">
+                                    "Лучшие герои бустера"
+                            </label>
+                                                     
+                            <label>
+                                    <input name="options" type="radio" value="option2">
+                                    "Мой пул героев на аккаунте"
+                            </label>
+
+                            <label>
+                                    <input name="options" type="radio" value="option3">
+                                    "Спам конкретного героя"
+                            </label>
+
+                        </div>
+
+
+                        <div id="role">
+
+                            <label>
+                                    <input name="Sup" type="checkbox"> 
+                                    Саппорт
+                            </label> 
+
+                            <label>
+                                    <input name="Core" type="checkbox"> 
+                                    Керри
+                            </label>
+
+                        </div>
+
+                    </form>
+
+                <div class="container bg-info" id="price">
+                Итоговая цена
+                </div>
+
+            
+                   
+            </div> 
+
 
                <div class="col-md-12 bg-light" itemprop="review" itemscope itemtype="https://schema.org/Review">
                    <h1 class="text-dark text-center">Отзывы</h1>
@@ -73,7 +142,7 @@
 
                 </div>
         </div>
-   </div>
+    </div>
  
    <div class="container" id="About">
         <div class="row">
@@ -98,8 +167,11 @@
        <div class="container text-light text-success text-center">
 			<span>Thank you for visiting my website!</span>
 		</div>
-
    </footer>
+
+   <script src="js.js">
+   </script>
+    
 </body>
 
 </html>
